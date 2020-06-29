@@ -1,0 +1,71 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700;800&display=swap');
+
+/* ====================================
+Globals
+===================================== */
+
+body {
+    background-color: hsl(150,7%,17%);
+    font: 600 16px/1.5 'Roboto Slab', serif;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Roboto/Roboto-Light.ttf);
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+/* ====================================
+    Typography
+===================================== */
+
+h1,
+h2 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 800;
+    text-shadow: 5px 5px 5px #000;
+    margin-bottom: 30px;
+}
+
+h3,
+time {
+    color: hsl(343,98%,50%);
+    font-size: 20px;
+}
+
+p {
+    color: #a89e8c;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+time {
+    color: #fff;
+}
+
+/* ====================================
+    Header
+===================================== */
+
+header,
+section,
+.publish-info {
+    margin: 35px 0;
+}
